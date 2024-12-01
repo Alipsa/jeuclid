@@ -7,10 +7,6 @@ This is a fork of https://github.com/rototor/jeuclid which in turn is a fork of 
 to get it working on JDK 17 and with Batik 1.18. 
 Only the library parts i.e. the core and the FOP plugin are supported.
 
-The main purpose of this fork is to get it working with 
-[Journo](https://github.com/alipsa/journo) which uses Flying Saucer to create PDF from xhtml
-
-
 ## Maven Artifact
 You can get this library from maven central using this dependency:
 
@@ -30,6 +26,7 @@ and needs to be loaded manually when desired using the following code: `JEuclidF
 
 Version 3.1.15 (not released yet):
  - Bump Batik Version to 1.18
+ - Remove Ant build support
  - [#15](https://github.com/rototor/jeuclid/pull/15) by @rack197 for better FOP support.
 
 Version 3.1.14:
